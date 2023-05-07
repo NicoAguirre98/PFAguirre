@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@1,300&display=swap");
+
+body {
+    font-family: "Roboto";
+    background-color: rgb(12, 12, 12);
+    position: relative;
+  }
+  .row-menu {
+    display: flex;
+  }
+  .Menu {
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .carritoicono {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .TitleShirts {
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+    font-family: "Plus Jakarta Sans";
+    color: white;
+  }
+  
+  .test a i {
+    color: white;
+  }
+  .Logo {
+    border-radius: 10px;
+  }
+  .test {
+    margin: 5px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .footer {
+    bottom: 0;
+    width: 100%;
+  }
+  .BestSellers {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+    font-family: "Plus Jakarta Sans";
+  }
+  .menuDesktop {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px;
+    justify-content: center;
+    height: auto;
+  }
+  @media only screen and (max-width: 600px) {
+    .menuDesktop {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 3px;
+      margin: auto;
+    }
+  }
+  .imagecontent {
+    margin: 0 0.5px;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .imagecontent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  @media only screen and (max-width: 600px) {
+    .imagecontent {
+      height: 100%;
+      width: 40vw;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .MainConteiner {
+    min-height: 100vh;
+  }
+  .Productos {
+    width: 300px;
+    margin: 0 2px;
+    height: 400px;
+    object-fit: cover;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .Productos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    object-position: middle;
+    display: flex;
+  }
+  @media only screen and (max-width: 600px) {
+    .Productos {
+      height: 100%;
+      width: 40vw;
+      flex-direction: wrap;
+      display: grid;
+      justify-content: space-around;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .Productos img {
+      height: 100%;
+      width: 100%;
+      display: grid;
+      justify-content: space-around;
+    }
+  }
+  .NameProducts {
+    color: white;
+    font-size: 0.57rem;
+    letter-spacing: 0.05rem;
+    font-family: "Plus Jakarta Sans";
+  }
+  .Precio {
+    color: white;
+    font-size: 0.57rem;
+    letter-spacing: 0.05rem;
+    font-family: "Plus Jakarta Sans";
+  }
+  table {
+    table-layout: fixed;
+    width: 720px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  @media only screen and (max-width: 600px) {
+    .table {
+      height: 100%;
+      width: 80vw;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+      object-fit: cover;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+  }
+  td {
+    border: 1px solid rgb(12, 12, 12);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .RemeraWash {
+    font-size: 25px;
+    letter-spacing: 0.5rem;
+    font-family: "Plus Jakarta Sans";
+    color: white;
+  }
+  .menuwash {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    border-radius: 5px;
+  }
+  .menuwash2 {
+    display: flex;
+    justify-content: left;
+    height: auto;
+  }
+  .remerawash2 {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 0;
+    height: 250px;
+  }
+  .remerawash2 img {
+    border-radius: 5px;
+    display: flex;
+    object-fit: cover;
+  }
+  @media only screen and (max-width: 600px) {
+    .remerawash2 {
+      height: 25%;
+      width: 25%;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: nowrap;
+      object-fit: cover;
+    }
+  }
+  .remerawash1 {
+    margin: 0 0.5px;
+    width: 50%;
+    height: 70%;
+    border-radius: 5px;
+    position: absolute;
+    top: 237px;
+    left: 20px;
+    display: flex;
+  }
+  .remerawash1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    display: flex;
+  }
+  @media only screen and (max-width: 600px) {
+    .remerawash1 {
+      height: 50%;
+      width: 50%;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+      position: sticky;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+  }
+  .inforemera1 {
+    margin: 0.1px;
+    padding: 0.2rem;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+    background: right/contain content-box border-box no-repeat rgb(75, 73, 73);
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    top: auto;
+    right: 800px;
+  }
+  @media only screen and (max-width: 600px) {
+    .inforemera1 {
+      height: 7%;
+      width: 40vw;
+      flex-direction: column;
+      display: flex;
+      position: bottom;
+      font-size: 9px;
+      top: 550px;
+      right: 125px;
+    }
+  }
+  .comprar {
+    margin: 0.1px;
+    padding: 0.2rem;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+    background: right/contain content-box border-box no-repeat rgb(75, 73, 73);
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    width: 80px;
+    height: 25px;
+    top: 400px;
+    right: 1px;
+  }
+  @media only screen and (max-width: 600px) {
+    .comprar {
+      margin: 0.1px;
+      padding: 0.2rem;
+      color: white;
+      font-family: "Plus Jakarta Sans";
+      background: right/contain content-box border-box no-repeat rgb(75, 73, 73);
+      border-radius: 5px;
+      position: absolute;
+      display: flex;
+      width: 75px;
+      height: 30px;
+      top: 100px;
+      right: 1px;
+    }
+  }
+section  {
+    display: flex;
+    justify-content: center;
+}
